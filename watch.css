@@ -1,0 +1,26 @@
+.container,
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 143px;
+}
+
+body{
+    background-image:url("back.jpg")  ;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    width: 100%;
+}
+#button1,
+#button2 {
+
+    margin: 10px 10px;
+    padding: 2px 20px;
+    background-color: azure;
+    cursor: pointer;
+
+}
